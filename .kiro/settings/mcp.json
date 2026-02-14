@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "aws-diagram": {
+      "command": "uvx",
+      "args": ["awslabs.aws-diagram-mcp-server@latest"],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR",
+        "PATH": "C:\\Users\\Parikshit\\.local\\bin;C:\\Program Files\\Graphviz\\bin;${PATH}"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
